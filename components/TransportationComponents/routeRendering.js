@@ -64,7 +64,7 @@ const RouteSegmentsDisplay = ({ stations, routeSegments, routeNames, transferPoi
                                         <div className="flex items-center">
                                             {/* eslint-disable-next-line @next/next/no-img-element */}
                                             <img
-                                                src={route.includes("Bus") ? "/transport/bus.svg" : "/transport/metro.svg"}
+                                                src={route.includes("Bus") ? "/transport/bus.svg" : route.includes("Boat") || route.includes("Ferry") ? "/transport/boat.svg" : route.includes("Interchange") ? "/transport/walk_transfer.svg" : "/transport/metro.svg"}
                                                 alt="Transport Icon"
                                                 className={`absolute w-6 h-6 top-23 left-2.5 transform -translate-x-1/2 ${isDark(routeSegments[0]?.color || "#2b2b2b") ? "invert" : ""}`}
                                                 style={{
@@ -157,7 +157,7 @@ const RouteSegmentsDisplay = ({ stations, routeSegments, routeNames, transferPoi
                                         <div className="flex items-center">
                                             {/* eslint-disable-next-line @next/next/no-img-element */}
                                             <img
-                                                src={route.includes("Bus") ? "/transport/bus.svg" : "/transport/metro.svg"}
+                                                src={route.includes("Bus") ? "/transport/bus.svg" : route.includes("Boat") || route.includes("Ferry") ? "/transport/boat.svg" : route.includes("Interchange") ? "/transport/walk_transfer.svg" : "/transport/metro.svg"}
                                                 alt="Transport Icon"
                                                 className={`absolute w-6 h-6 top-23 left-2.5 transform -translate-x-1/2 ${isDark(routeSegments[index]?.color || "#2b2b2b") ? "invert" : ""}`}
                                                 style={{
