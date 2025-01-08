@@ -13,7 +13,7 @@ export default function Home() {
         author="winsanmwtv"
         keywords="Harlon Trip Planner, Sylvarion Trip Planner, Limaru Trip Planner"
       />
-      <PageLayout>
+      <PageLayout title="">
         <SectionBox>
             <Pathfinder/>
         </SectionBox>

@@ -13,7 +13,7 @@ export default function Home() {
                 author="YJJcoolcool"
                 keywords="limaru, limaru city server, limaru minecraft server"
             />
-            <PageLayout title='Transportation'>
+            <PageLayout title="">
                 <SectionBox>
                     <TripPlanner/>
                 </SectionBox>
