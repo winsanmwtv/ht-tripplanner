@@ -6,8 +6,7 @@ import {findDirectRoute, findOptimalRoute} from "./utils";
 const travelOptions = [
     { value: "all", label: "All" },
     { value: "minimumStations", label: "Minimum Stations" },
-    { value: "minimumTransfers", label: "Minimum Transfers" },
-    { value: "isDriverless", label: "Without Driver First" }, // New option for driverless routes
+    { value: "minimumTransfers", label: "Minimum Transfers" }
 ];
 
 const allStations = Object.keys(routes);
