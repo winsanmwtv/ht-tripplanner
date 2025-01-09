@@ -40,7 +40,7 @@
 
   },
   "Tower Quarters": {
-    "Serqels Square": {
+    "Sergels Square": {
       "distance": 1,
       "type": "metro",
       "line": ["C1", "C2"],
