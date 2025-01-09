@@ -6,6 +6,20 @@
       "line": ["C1", "C2"],
       "color": ["#05b20d", "#05b20d"],
       "destination": ["Stenford Bay", "Portsfield Central"]
+    },
+    "Marble Street": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Tranquila"
+    },
+    "Fra Mauro Street": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Portsfield Bus Central"
     }
   },
   "Sergels Square": {
@@ -26,9 +40,9 @@
     "Fra Mauro Street": {
       "distance": 1,
       "type": "metro",
-      "line": "M3",
-      "color": "#c50011",
-      "destination": "Ganters Hill"
+      "line": ["M3", "Bus 26"],
+      "color": ["#c50011", "#1744ad"],
+      "destination": ["Ganters Hill", "Tranquila"]
     },
     "Berry Isle": {
       "distance": 1,
@@ -36,8 +50,14 @@
       "line": "M3",
       "color": "#c50011",
       "destination": "Lighthouse Point"
+    },
+    "Redstone Casino": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Portsfield Bus Central"
     }
-
   },
   "Tower Quarters": {
     "Sergels Square": {
@@ -96,16 +116,16 @@
     "North Riverbank Street": {
       "distance": 1,
       "type": "metro",
-      "line": "M1",
-      "color": "#056f0d",
-      "destination": "The Triangle"
+      "line": ["M1", "Bus 26"],
+      "color": ["#056f0d", "#1744ad"],
+      "destination": ["The Triangle", "Portsfield Bus Central"]
     },
     "Harlonian Plaza": {
       "distance": 1,
       "type": "metro",
-      "line": "M3",
-      "color": "#c50011",
-      "destination": "Ganters Hill"
+      "line": ["M3", "Bus 26"],
+      "color": ["#c50011", "#1744ad"],
+      "destination": ["Ganters Hill", "Tranquila"]
     },
     "Victory Column": {
       "distance": 1,
@@ -113,6 +133,13 @@
       "line": "M3",
       "color": "#c50011",
       "destination": "Lighthouse Point"
+    },
+    "Hibbing Ore Mines": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Hibbing Ore Mines Express Bus",
+      "color": "#5a9dff",
+      "destination": "Hibbing Ore Mines"
     }
   },
   "Chelsham Street": {
@@ -212,6 +239,20 @@
       "line": "C11",
       "color": "#05b20d",
       "destination": "Upminster"
+    },
+    "Lane of Equality": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 11",
+      "color": "#3bff68",
+      "destination": "Wixley Beach"
+    },
+    "Roslagen Tree Plantation": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 11",
+      "color": "#3bff68",
+      "destination": "Stenford Seafront"
     }
   },
   "Stenford Bay": {
@@ -221,6 +262,13 @@
       "line": "C1",
       "color": "#05b20d",
       "destination": "Shoretrench"
+    },
+    "Stenford Seafront": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Out-of-Station Interchange",
+      "color": "#2b2b2b",
+      "destination": "Stenford Seafront"
     }
   },
   "Upminster": {
@@ -317,6 +365,13 @@
       "line": "C2",
       "color": "#05b20d",
       "destination": "Shoretrench"
+    },
+    "Portsfield Bus Central": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Out-of-Station Interchange",
+      "color": "#2b2b2b",
+      "destination": "Portsfield Bus Central"
     }
   },
   "The Triangle": {
@@ -390,9 +445,16 @@
     "Capital Station": {
       "distance": 1,
       "type": "metro",
-      "line": "M3",
-      "color": "#c50011",
-      "destination": "Lighthouse Point"
+      "line": ["M3", "Bus 26"],
+      "color": ["#c50011", "#1744ad"],
+      "destination": ["Lighthouse Point", "Portsfield Bus Central"]
+    },
+    "Harlon Bridge": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Tranquila"
     }
   },
   "North Riverbank Street": {
@@ -406,9 +468,16 @@
     "Capital Station": {
       "distance": 1,
       "type": "metro",
-      "line": "M1",
-      "color": "#056f0d",
-      "destination": "Lighthouse Point"
+      "line": ["M1", "Bus 26"],
+      "color": ["#056f0d", "#1744ad"],
+      "destination": ["Lighthouse Point", "Tranquila"]
+    },
+    "Riverfront": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Tranquila"
     }
   },
   "Old Town": {
@@ -482,6 +551,13 @@
       "line": "M11",
       "color": "#056f0d",
       "destination": "Chelsham Street"
+    },
+    "Liberty Lane": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 11",
+      "color": "#3bff68",
+      "destination": "Stenford Seafront"
     }
   },
   "Northshore": {
@@ -618,9 +694,16 @@
     "Sergels Square": {
       "distance": 1,
       "type": "metro",
-      "line": "M3",
-      "color": "#c50011",
-      "destination": "Lighthouse Point"
+      "line": ["M3", "Bus 26"],
+      "color": ["#c50011", "#1744ad"],
+      "destination": ["Lighthouse Point", "Portsfield Bus Central"]
+    },
+    "Shoretrench": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Tranquila"
     }
   },
   "Berry Isle": {
@@ -724,6 +807,312 @@
       "line": "Ferry",
       "color": "#5a9dff",
       "destination": "Upminster"
+    }
+  },
+  "Hibbing Ore Mines": {
+    "Capital Station": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Hibbing Ore Mines Express Bus",
+      "color": "#5a9dff",
+      "destination": "Capital Station"
+    }
+  },
+  "Tranquila": {
+    "Marble Street": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Portsfield Bus Central"
+    }
+  },
+  "Marble Street": {
+    "Tranquila": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Tranquila"
+    },
+    "Shoretrench": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Portsfield Bus Central"
+    }
+  },
+  "Redstone Casino": {
+    "Sergels Square": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Tranquila"
+    },
+    "Harlon Bridge": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Portsfield Bus Central"
+    }
+  },
+  "Harlon Bridge": {
+    "Redstone Casino": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Tranquila"
+    },
+    "Harlonian Plaza": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Portsfield Bus Central"
+    }
+  },
+  "Riverfront": {
+    "North Riverbank Street": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Tranquila"
+    },
+    "Uppsala Street": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Portsfield Bus Central"
+    }
+  },
+  "Uppsala Street": {
+    "Riverfront": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Tranquila"
+    },
+    "Times Square": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Portsfield Bus Central"
+    }
+  },
+  "Times Square": {
+    "Uppsala Street": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Tranquila"
+    },
+    "Bel-Air": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Portsfield Bus Central"
+    }
+  },
+  "Bel-Air": {
+    "Times Square": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Tranquila"
+    },
+    "Hornsberg Bus Depot": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Portsfield Bus Central"
+    }
+  },
+  "Hornsberg Bus Depot": {
+    "Bel-Air": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Tranquila"
+    },
+    "Paryus Road": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Portsfield Bus Central"
+    }
+  },
+  "Paryus Road": {
+    "Hornsberg Bus Depot": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Tranquila"
+    },
+    "Liberty Gasoline": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Portsfield Bus Central"
+    }
+  },
+  "Liberty Gasoline": {
+    "Paryus Road": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Tranquila"
+    },
+    "Factory Showcase": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Portsfield Bus Central"
+    }
+  },
+  "Factory Showcase": {
+    "Liberty Gasoline": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Tranquila"
+    },
+    "Portsfield Retail Center": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Portsfield Bus Central"
+    }
+  },
+  "Portsfield Retail Center": {
+    "Factory Showcase": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Tranquila"
+    },
+    "Portsfield Bus Central": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Portsfield Bus Central"
+    }
+  },
+  "Portsfield Bus Central": {
+    "Portsfield Retail Center": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 26",
+      "color": "#1744ad",
+      "destination": "Tranquila"
+    },
+    "Portsfield Central": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Out-of-Station Interchange",
+      "color": "#2b2b2b",
+      "destination": "Portsfield Central"
+    }
+  },
+  "Liberty Lane": {
+    "Wixley Beach": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 11",
+      "color": "#3bff68",
+      "destination": "Wixley Beach"
+    },
+    "Lane of Equality": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 11",
+      "color": "#3bff68",
+      "destination": "Stenford Seafront"
+    }
+  },
+  "Lane of Equality": {
+    "Liberty Lane": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 11",
+      "color": "#3bff68",
+      "destination": "Wixley Beach"
+    },
+    "Ovxille": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 11",
+      "color": "#3bff68",
+      "destination": "Stenford Seafront"
+    }
+  },
+  "Roslagen Tree Plantation": {
+    "Ovxille": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 11",
+      "color": "#3bff68",
+      "destination": "Wixley Beach"
+    },
+    "Oldbury Slope": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 11",
+      "color": "#3bff68",
+      "destination": "Stenford Seafront"
+    }
+  },
+  "Oldbury Slope": {
+    "Roslagen Tree Plantation": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 11",
+      "color": "#3bff68",
+      "destination": "Wixley Beach"
+    },
+    "Stenford Seafront": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 11",
+      "color": "#3bff68",
+      "destination": "Stenford Seafront"
+    }
+  },
+  "Stenford Seafront": {
+    "Oldbury Slope": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Bus 11",
+      "color": "#3bff68",
+      "destination": "Wixley Beach"
+    },
+    "Stenford Bay": {
+      "distance": 1,
+      "type": "metro",
+      "line": "Out-of-Station Interchange",
+      "color": "#2b2b2b",
+      "destination": "Stenford Bay"
     }
   }
 }
