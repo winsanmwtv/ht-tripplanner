@@ -330,7 +330,7 @@
     "Stadium": {
       "distance": 1,
       "type": "metro",
-      "line": "C2",
+      "line": "M2",
       "color": "#ebe200",
       "destination": "Northshore"
     }
