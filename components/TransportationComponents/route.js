@@ -31,18 +31,21 @@ const RouteDetails = () => {
                 const previousRouteData = routes[stations[i - 1]]?.[currentStation];
 
                 const sharedLinesBoth = routeData.line.filter(line =>
-                    nextRouteData?.line || [] === line &&
-                    previousRouteData?.line || [] === line
+                    (nextRouteData?.line || []).includes(line) &&
+                    (previousRouteData?.line || []).includes(line)
                 );
                 const sharedLinesEither = routeData.line.filter(line =>
-                    nextRouteData?.line || [] === line ||
-                    previousRouteData?.line || [] === line
+                    (nextRouteData?.line || []).includes(line) ||
+                    (previousRouteData?.line || []).includes(line)
                 );
 
                 // Check if the express route of the same type exists
-                const expressRouteSameLine = routeData.line.find((line, index) =>
-                    line.toLowerCase().includes("express")
+                // Check if the express route exists and is valid for the same line
+                const expressRouteSameLine = routeData.line.find(line =>
+                    line.toLowerCase().includes("express") &&
+                    routes[currentStation]?.[nextStation]?.line.includes(line)
                 );
+
 
                 // Prioritize express route of the same line if available
                 selectedRoute = expressRouteSameLine || sharedLinesBoth[0] || sharedLinesEither[0] || (previousRoute && routeData.line.includes(previousRoute) ? previousRoute : routeData.line[0]);
