@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head
-        title="Pathfinder by KONNO"
+        title="Pathfinder | KONNO"
         description="A pathfinding system made by KONNO (for mainly use with railway system). Use by Minecraft servers"
         author="winsanmwtv"
         keywords="Harlon Trip Planner, Sylvarion Trip Planner, Limaru Trip Planner"
