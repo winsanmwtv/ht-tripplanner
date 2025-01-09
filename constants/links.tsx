@@ -13,7 +13,8 @@ export interface NavLink {
 
 export const nav_links: NavLink[] = [
   {
-    href: "/ktbkonno.png",
+    href: "https://ht.harlonserver.net/map.html",
+    newtab: true,
     text: "Route Map Download",
     pages: [
     ],
