@@ -947,7 +947,7 @@
       "color": "#1744ad",
       "destination": "Tranquila"
     },
-    "Paryus Road": {
+    "Parvus Road": {
       "distance": 1,
       "type": "metro",
       "line": "Bus 26",
@@ -955,7 +955,7 @@
       "destination": "Portsfield Bus Central"
     }
   },
-  "Paryus Road": {
+  "Parvus Road": {
     "Hornsberg Bus Depot": {
       "distance": 1,
       "type": "metro",
@@ -972,7 +972,7 @@
     }
   },
   "Liberty Gasoline": {
-    "Paryus Road": {
+    "Parvus Road": {
       "distance": 1,
       "type": "metro",
       "line": "Bus 26",
